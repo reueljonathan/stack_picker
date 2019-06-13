@@ -30,7 +30,6 @@ export default class StackGenerator extends React.Component {
   }
 
   generateStack(){
-    console.log("Generate stack()");
     // Here the magic happens
     const newStack = [];
     
@@ -40,9 +39,6 @@ export default class StackGenerator extends React.Component {
     newStack.push(this.pickRandom(tools.backend));
     newStack.push(this.pickRandom(tools.database));
     
-    console.log("generated stack:");
-    console.log(newStack);
-
     this.setState({ list: newStack });
   }
   
@@ -50,10 +46,8 @@ export default class StackGenerator extends React.Component {
     return (
       <React.Fragment>
         <Paragraph>
-          Please describe your project below, so our AI (also known as if-else 
-          statements) can pick for you the perfect, reliable, bug-free web stack.
+          Click the generate button to have the perfect, reliable, bug-free web stack.
         </Paragraph>
-        <ProjectDescription />
         <Button onClick={this.generateStack}>Generate</Button>
         <ToolList tools={this.state.list} />
       </React.Fragment>
