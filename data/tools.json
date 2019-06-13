@@ -1,0 +1,120 @@
+{
+  "styling": [
+    {
+      "name": "Sass",
+      "img" : "css/sass.svg"
+    },
+    {
+      "name": "LESS",
+      "img" : "css/less.png"
+    },
+    {
+      "name": "Stylus",
+      "img" : "css/stylus.svg"
+    },
+    {
+      "name": "Styled-components",
+      "img" : "css/styled-components.png"
+    },
+    {
+      "name": "PostCSS",
+      "img" : "css/postcss.svg"
+    }
+  ],
+
+  "frontend": [
+    {
+      "name": "React",
+      "img" : "frontend/react.png"
+    },
+    {
+      "name": "Vue",
+      "img" : "frontend/vue.png"
+    },
+    {
+      "name": "Angular",
+      "img" : "frontend/angular.svg"
+    },
+    {
+      "name": "Ember",
+      "img" : "frontend/ember.png"
+    },
+    {
+      "name": "Backbone",
+      "img" : "frontend/backbone.png"
+    }
+  ],
+
+  "data":[
+    {
+      "name": "GraphQL",
+      "img" : "data/graphql.svg"
+    },
+    {
+      "name": "REST",
+      "img" : "data/rest.svg"
+    }
+  ],
+
+  "backend": [
+    {
+      "name": "Node",
+      "img" : "backend/node.svg"
+    },
+    {
+      "name": "Django",
+      "img" : "backend/django.svg"
+    },
+    {
+      "name": "Flask",
+      "img" : "backend/flask.svg"
+    },
+    {
+      "name": "Falcon",
+      "img" : "backend/falcon.svg"
+    },
+    {
+      "name": "Ruby on Rails",
+      "img" : "backend/rails.svg"
+    },
+    {
+      "name": "Spring",
+      "img" : "backend/spring.svg"
+    },
+    {
+      "name": "Spark",
+      "img" : "backend/spark.svg"
+    },
+    {
+      "name": "Go Lang",
+      "img" : "backend/gopher.svg"
+    }
+  ],
+
+  "database": [
+    {
+      "name": "Redis",
+      "img" : "database/redis.svg"
+    },
+    {
+      "name": "MySQL",
+      "img" : "database/mysql.svg"
+    },
+    {
+      "name": "Oracle",
+      "img" : "database/oracle.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "img" : "database/postgresql.svg"
+    },
+    {
+      "name": "MongoDB",
+      "img" : "database/mongo.svg"
+    },
+    {
+      "name": "Cassandra",
+      "img" : "database/cassandra.svg"
+    }
+  ]
+}

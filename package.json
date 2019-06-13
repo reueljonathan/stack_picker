@@ -1,0 +1,36 @@
+{
+  "name": "stack_picker",
+  "version": "1.0.0",
+  "description": "The professional way to (not) pick a web stack for your project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reueljonathan/stack_generator.git"
+  },
+  "author": "Reuel Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reueljonathan/stack_generator/issues"
+  },
+  "homepage": "https://github.com/reueljonathan/stack_generator#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
+  }
+}
