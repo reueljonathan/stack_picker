@@ -14,6 +14,12 @@ const Button = styled.button`
   color: #fff;
   border: none;
   padding: .5em 1em;
+  outline: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0e285d; 
+  }
 `;
 
 export default class StackGenerator extends React.Component {
