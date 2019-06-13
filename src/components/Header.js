@@ -7,8 +7,16 @@ const LogoHeader = styled.div `
   padding: 1em 0;
 `;
 
+const LogoImage = styled.img`
+  width: 420px;
+
+  @media(max-width: 420px){
+    width: 100%;
+  }
+`;
+
 export default function Header(props){
   return <LogoHeader>
-    <img src={logo} height={75} />
+    <LogoImage src={logo} />
   </LogoHeader>;
 }
